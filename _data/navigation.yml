@@ -13,10 +13,7 @@ main:
 
   - title: "Publications"
     url: /publications/
-        
-  - title: "Japanese Contents"
-    url: /japanese_contents/
-    
+
   - title: "Blog Posts"
     url: /blog_posts/
   
@@ -25,6 +22,9 @@ main:
     
   # - title: "CV"
   #   url: /cv-json/
+    
+  - title: "Japanese Contents"
+  url: /japanese_contents/
     
   - title: "Guide"
     url: /markdown/
