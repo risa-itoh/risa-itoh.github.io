@@ -120,3 +120,4 @@ Extracurricular Activities
 Contact
 ======
 * Email: [risa.ito@colorado.edu](mailto:risa.ito@colorado.edu)
+* Phone: +1 720-231-0512
