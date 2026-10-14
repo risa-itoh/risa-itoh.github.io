@@ -138,6 +138,52 @@
   line-height: 1.7;
 }
 
+.home-background {
+  border-top: 1px solid #d9e2e0;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(220px, .8fr) minmax(0, 1.2fr);
+  margin: 0 auto 4rem;
+  max-width: 70rem;
+  padding-top: 2rem;
+}
+
+.home-background h2 {
+  color: #173f4a;
+  font-family: Georgia, serif;
+  font-size: clamp(1.8rem, 3vw, 2.7rem);
+  font-weight: 400;
+  line-height: 1.15;
+  margin: .4rem 0 0;
+}
+
+.home-background__details {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.home-background__details strong {
+  color: #285866;
+  display: block;
+  font-size: 1.1rem;
+  margin: .5rem 0;
+}
+
+.home-background__details p {
+  color: #527079;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.home-detail-label {
+  color: #b45f45;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
 .home-callout {
   align-items: center;
   background: #173f4a;
@@ -203,7 +249,9 @@
   }
 
   .home-focus-grid,
-  .home-links {
+  .home-links,
+  .home-background,
+  .home-background__details {
     grid-template-columns: 1fr;
   }
 
