@@ -24,7 +24,7 @@ main:
   #   url: /cv-json/
     
   - title: "Japanese Contents"
-  url: /japanese_contents/
+    url: /japanese_contents/
     
   - title: "Guide"
     url: /markdown/
